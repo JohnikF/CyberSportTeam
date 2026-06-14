@@ -35,6 +35,8 @@ header {
     height: 80px;
     box-shadow: 0 5px 20px rgb(0 0 0 / 0.7);
     line-height: 80px;
+    position: fixed;
+    z-index: 12345;
 }
 
 .logo {
@@ -59,4 +61,53 @@ nav {
     color: #65daff;
     text-shadow: 0 0 5px #65daff;
     transition: 0.5s;
+}
+
+.start {
+    background-image: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.start-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 40px;
+    width: 50%;
+}
+
+.start-title {
+    color: #4e4e4e;
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.start-subtitle {
+    color: #4e4e4e;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.start-btn {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(45deg, #65daff, #70ffcb);
+    padding: 30px 80px;
+    display: block;
+    width: fit-content;
+}
+
+.start-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.start-btn:active {
+    background: linear-gradient(45deg, #347083, #388065);
 }
