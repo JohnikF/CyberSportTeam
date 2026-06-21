@@ -111,3 +111,26 @@ nav {
 .start-btn:active {
     background: linear-gradient(45deg, #347083, #388065);
 }
+
+.about {
+    height: 40vh;
+    text-align: center;
+}
+
+.about-card {
+    width: 24%;
+    display: inline-block;
+    height: 200px;
+    margin-top: 100px;
+    vertical-align: top;
+}
+
+.about-card-img {
+    height: 130px;
+    margin-bottom: 30px;
+}
+
+.about-card-title {
+    color: #65daff;
+    font-size: 30px;
+}
