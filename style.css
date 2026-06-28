@@ -20,6 +20,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: #65daff;
+    margin-bottom: 50px;
 }
 
 .section-text {
@@ -133,4 +134,44 @@ nav {
 .about-card-title {
     color: #65daff;
     font-size: 30px;
+}
+
+.games-container {
+    margin-top: 100px;
+    box-shadow: 0 10px 30px rgba(0 0 0 / 0.7);
+    padding: 30px  0;
+    text-align: center;
+}
+
+.games-card-image {
+    background-image: url("img/csgo.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.game-card-content {
+    width: 49%;
+    min-height: 350px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.game-title {
+    font-size: 25px;
+    color: #70ffcb;
+}
+
+.game-divider {
+    width: 130px;
+    margin: 20px 0px;
+    border: none;
+    background-color: #70ffcb;
+    height: 3px;
 }
