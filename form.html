@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>RobotBot</title>
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+<form>
+    <div class="form-head">
+        <a href="index.html" class="btn-back"><</a>
+        <h3 class="form-title">Sign up to join</h3>
+    </div>
+    <div class="form-body">
+        <input name="firstname" type="text" placeholder="First Name" class="name">
+        <input name="lastname" type="text" placeholder="Last Name" class="lastname">
 
+        <p class="gender">Your Gender</p>
+        <input type="radio" name="gender" value="male" class="male-radio" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" class="female-radio" id="female">
+        <label for="female">Female</label>
+
+        <input type="checkbox" name="age" id="age" class="age" value="got-18">
+        <label for="age">I am 18+</label>
+
+        <label for="game">Your game</label>
+        <select name="game" id="game" class="game">
+            <option value="CS:GO">CS:GO</option>
+            <option value="Dota 2">Dota 2</option>
+            <option value="Apex Legends">Apex Legends</option>
+        </select>
+    </div>
+</form>
 </body>
 </html>
