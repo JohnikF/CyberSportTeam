@@ -144,7 +144,6 @@ nav {
 }
 
 .games-card-image {
-    background-image: url("img/csgo.jpg");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,6 +153,18 @@ nav {
     vertical-align: top;
 }
 
+.img1 {
+    background-image: url("img/csgo.jpg");
+}
+
+.img2 {
+    background-image: url("img/dota2.jpg");
+}
+
+.img3 {
+    background-image: url("img/apex.jpg");
+}
+
 .game-card-content {
     width: 49%;
     min-height: 350px;
@@ -161,6 +172,7 @@ nav {
     vertical-align: top;
     text-align: left;
     padding: 0 15px;
+    padding-top: 10px;
 }
 
 .game-title {
