@@ -187,3 +187,29 @@ nav {
     background-color: #70ffcb;
     height: 3px;
 }
+
+.tournament-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #65daff;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tournament-text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+}
+
+.discord-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #65daff;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
