@@ -13,6 +13,99 @@ body {
 
 form {
     background-color: #222222;
-    width: 70%;
-    box-shadow: 0 5px 20px rgb(0 0 0 / 7%);
+    width: 60%;
+    box-shadow: 0px 7px 15px rgb(0 0 0 / 13%);
+    margin: 50px auto;
+}
+
+.form-head {
+    background: #65daff;
+    height: 50px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.btn-back {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+}
+
+.btn-back:hover {
+    background-color: gray;
+}
+
+.btn-back:active {
+    color: white;
+    background-color: black;
+}
+
+.form-body {
+    padding: 30px;
+    color: white;
+}
+
+.name, .lastname {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    outline: none;
+}
+
+.input-wrapper {
+    margin: 30px 0;
+}
+
+.gender {
+    margin-top: 30px;
+}
+
+#male {
+    margin-right: 10px;
+}
+
+#female {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+#age {
+    margin-right: 10px;
+}
+
+#comment {
+    border: 1px solid white;
+    background: none;
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    outline: none;
+    margin-bottom: 30px;
+    resize: none;
+    max-height: 200px;
+    display: block;
+}
+
+.submit-btn {
+    color: white;
+    width: fit-content;
+    background: linear-gradient(45deg, #65daff, #70ffcb);
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 20px 80px;
+    margin: 30px auto;
+    display: block;
 }

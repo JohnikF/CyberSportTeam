@@ -17,20 +17,26 @@
         <input name="lastname" type="text" placeholder="Last Name" class="lastname">
 
         <p class="gender">Your Gender</p>
-        <input type="radio" name="gender" value="male" class="male-radio" id="male">
-        <label for="male">Male</label>
-        <input type="radio" name="gender" value="female" class="female-radio" id="female">
-        <label for="female">Female</label>
+        <div class="input-wrapper">
+            <input type="radio" name="gender" value="male" class="male-radio" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" class="female-radio" id="female">
+            <label for="female">Female</label>
+        </div>
 
-        <input type="checkbox" name="age" id="age" class="age" value="got-18">
-        <label for="age">I am 18+</label>
+        <div class="input-wrapper">
+            <input type="checkbox" name="age" id="age" class="age" value="got-18">
+            <label for="age">I am 18+</label>
+        </div>
 
-        <label for="game">Your game</label>
-        <select name="game" id="game" class="game">
-            <option value="CS:GO">CS:GO</option>
-            <option value="Dota 2">Dota 2</option>
-            <option value="Apex Legends">Apex Legends</option>
-        </select>
+        <div class="input-wrapper">
+            <label for="game">Your game</label>
+            <select name="game" id="game" class="game">
+                <option value="CS:GO">CS:GO</option>
+                <option value="Dota 2">Dota 2</option>
+                <option value="Apex Legends">Apex Legends</option>
+            </select>
+        </div>
 
         <textarea name="comment" id="comment" class="comment" placeholder="Extra Info"></textarea>
 
