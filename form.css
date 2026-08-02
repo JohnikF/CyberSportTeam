@@ -9,6 +9,7 @@
 
 body {
     background-color: #222222;
+    cursor: default;
 }
 
 form {
@@ -104,8 +105,20 @@ form {
     background: linear-gradient(45deg, #65daff, #70ffcb);
     border: none;
     outline: none;
-    height: 50px;
     padding: 20px 80px;
     margin: 30px auto;
     display: block;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(45deg, #347083, #388065);
+}
+
+.submit-btn:hover:active {
+    background: white;
+    color: black;
+}
+
+.namefield {
+    padding: 30px;
 }
