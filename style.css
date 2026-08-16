@@ -263,3 +263,20 @@ nav {
     color: black;
     background-color: white;
 }
+
+@media(max-width: 1200px) {
+    nav {
+        float: none;
+    }
+
+    .nav-item {
+        display: block;
+        line-height: 25px;
+    }
+
+    header {
+        height: fit-content;
+        padding: 10px 15px;
+    }
+
+}
