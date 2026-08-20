@@ -39,6 +39,7 @@ header {
     line-height: 80px;
     position: fixed;
     z-index: 12345;
+    top: 0;
 }
 
 .logo {
@@ -216,13 +217,11 @@ nav {
 }
 
 .link-container {
-    margin-top: 100px;
     box-shadow: 0 10px 30px rgba(0 0 0 / 0.7);
     padding: 30px 0;
     text-align: center;
-    width: 40%;
-    margin-left: 30%;
-    margin-bottom: 50px;
+    width: 70%;
+    margin: 50px auto;
 }
 
 .link-divider {
@@ -234,7 +233,7 @@ nav {
     background-color: #65daff;
     height: 150px;
     margin-top: 40px;
-    width: 700px;
+    width: 75%;
     display: inline-block;
 }
 
@@ -264,7 +263,7 @@ nav {
     background-color: white;
 }
 
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
     nav {
         float: none;
     }
@@ -278,5 +277,34 @@ nav {
         height: fit-content;
         padding: 10px 15px;
     }
+
+    .start {
+        margin-top: 130px;
+        height: 100vh;
+    }
+
+    .link-box-title {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .start-title {
+        font-size: 40px;
+    }
+
+    .start-subtitle {
+        font-size: 20px;
+    }
+
+    .about-card-img {
+        height: 50px;
+    }
+
+    .about-card-title {
+        font-size: 15px;
+    }
+
+
 
 }

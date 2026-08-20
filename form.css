@@ -122,3 +122,10 @@ form {
 .namefield {
     padding: 30px;
 }
+
+
+@media (max-width: 1200px) {
+    form {
+        margin: 30px auto;
+    }
+}
